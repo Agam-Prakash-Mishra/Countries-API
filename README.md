@@ -6,42 +6,39 @@ A responsive web application that allows users to explore countries worldwide wi
 
 ## Features
 
-### Main Page (`index.html`)
-- **Country Grid Display**: Visual cards showing country flags, population, region, and capital  
-- **Search Functionality**: Real-time search by country name  
-- **Region Filtering**: Filter countries by continent (Africa, America, Asia, Europe, Oceania)  
-- **Dark/Light Mode**: Toggle between themes with persistent `localStorage`  
-- **Responsive Design**: Adapts to different screen sizes  
+## ✨ Features
 
-### 🇺🇳 Country Detail Page (`Country.html`)
-- **Detailed Country Information**: Native name, population, region, subregion, capital, currencies, languages  
-- **Border Countries**: Clickable links to neighboring countries  
-- **Back Navigation**: Easy return to main page  
-- **High-Quality Flag Display**: SVG flags with hover effects  
+- **Country Catalog**: View a grid of all countries with their flags and basic details.
+- **Search Functionality**: Real-time search by country name.
+- **Region Filtering**: Filter countries by region (Africa, America, Asia, Europe, Oceania).
+- **Detailed View**: Click on any country to see in-depth information including native names, currencies, languages, and border countries.
+- **Dynamic Routing**: Navigate between border countries easily via `react-router-dom`.
+- **Dark/Light Mode**: Fully functional theme switcher that persists your preference using `localStorage`.
+- **Loading States**: Custom shimmer/skeleton loading effects for a polished user experience.
+- **Responsive Design**: Mobile-friendly layout ensuring usability across all devices.
 
----
+## 🛠️ Tech Stack
 
-## Technologies Used
-- **Frontend**: HTML5, CSS3, JavaScript (ES6+), React.JS  
-- **API**: [REST Countries API](https://restcountries.com/)  
-- **Icons**: [Font Awesome 6](https://fontawesome.com/)  
-- **Fonts**: [Nunito Sans (Google Fonts)](https://fonts.google.com/specimen/Nunito+Sans)  
-- **Styling**: CSS Variables for theme management  
+- **Frontend Library**: React 18
+- **Bundler**: Parcel
+- **Routing**: React Router v6
+- **Styling**: CSS3 (with CSS Variables for theming)
+- **State Management**: React Context API (Theme) & React Hooks (`useState`, `useEffect`, `useReducer`)
+- **Icons**: FontAwesome 6
 
----
+## 🚀 Getting Started
 
-## Getting Started
+Follow these instructions to get a copy of the project up and running on your local machine.
 
 ### Prerequisites
-- Modern web browser with React enabled  
-- Internet connection (for API calls and CDN resources)  
+
+Ensure you have **Node.js** installed on your machine.
 
 ### Installation
-1. Clone or download the project files  
-2. Ensure all files are in the same directory  
-3. Run command **`npm start`** in your terminal 
 
----
+1. **Clone the repository**
+   ```bash
+   https://github.com/Agam-Prakash-Mishra/Countries-API
 
 ## Key Features Explained
 
